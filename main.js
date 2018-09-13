@@ -1,8 +1,14 @@
 const {app, BrowserWindow} = require('electron')
 
+var path = require('path')
+
 	function createWindow () {
 
-		win = new BrowserWindow({width: 800, height: 600})
+		win = new BrowserWindow({
+			width: 800, 
+			height: 600,
+			icon: path.join(__dirname, 'icons/icon.png')
+		})
 
 		// paste url here
 		win.loadURL('')
