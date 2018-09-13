@@ -11,4 +11,4 @@ Once those are installed, do the following:
 - Open a terminal, and run: npm start
 - If there are any missing packages just do: npm install package-name --save
 - run npm start until you see "electron ."
-- Once you see that, you can see the app on your dock/launcher. Pin it and you d
+- Once you see that, you can see the app on your dock/launcher. Pin it and you don't have to open the terminal to run it again
